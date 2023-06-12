@@ -1,55 +1,129 @@
-*{
-	padding:1;
-	margin: 5:00;
-	box-sizing border-box;
-	width: 100;
+ *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 body{
-	background-color: #494946;
-	color: snow;
+	background-color: ghostwhite;
+	color: black;
 	width: 100%;
 	height: 100%;
 	display: flex;
-	justify-content: left;
+	justify-content: center;
 	align-content: center;
+	font-family: monospace;
+
 
 }
 
 form{
-	width: 50%;
-	border: 5px solid #efdc8b;
+	width: 70%;
+	padding: 4em;
+	border: 2px solid #efdc8b;
 	border-radius: 1em;
-	margin: 5em auto;
+	margin: 4em auto;
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	flex-direction: column;
 
 }
-
-div{
-	margin: 1em;
-	font-size: 1.5.em;
+#form{
+	padding: 5;
+	margin: 40;
 }
 
+div{
+	margin: 0.5em;
+	font-size: 0.em;
+	padding: 0
+}
+
+#phone{
+	width: 50%;
+	font-size: 10px;
+} 
+
+#f-name{
+	width: 40%;
+	font-size: 10px;
+}
+
+#s-name{
+	width: 35%;
+	font-size: 10px;
+}
+
+#age{
+	width: 
+	30%;
+}
+#mememo{
+	font-size: 20px;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#mn1{
+	font-size: 15px;
+	color: black;
+}
+#mn2{
+	font-size: 15px;
+	color: black;
+}
+#mn3{
+	font-size: 15px;
+	color: black;
+	width: 30%;
+}#mn4{
+	font-size: 15px;
+	color: black;
+}
+#mn5{
+	font-size: 15px;
+	color: black;
+}
+#MALE{
+	color: black;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#FEMALE{
+	color: black;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#meme1{
+	font-size: 15px;
+	color: black;
+}
 input{
 	background: transparent;
-	font-size: 1em;
+	font-size: 2.em;
 	color: snow;
-	padding: 0em;
-	width: 70%;
+	padding: .1em;
+	border-radius: 1em;
 
 }
 hr{
-	margin: .3em;
-	height: 1.2px;
+	margin: .5em;
+	height: 2px;
 	border: none;
+	border-radius: 1em;
 }
 select{
 	font-size: 1em;
-	padding: .2em;
-	width: 40%;
+	padding: .1em;
+	width: 60%;
+	border-radius: .5em ;
 }
 
 button{
@@ -58,17 +132,47 @@ button{
 	font-size: 1em;
 	padding: 1em auto;
 	color: black;
-	border-radius: 1.em;
+	border-radius: 10.em;
 	margin: 1em auto;
+	border: 10em;
 }
 
 #button:hover{
-	background: transparent;
-	border: 3px solid #0a6976;
+	border: 3px solid red ;
 	cursor: pointer;
-	transition: all .5s ease in-out;
+	transition: all .5px ease in-out;
+	border-spacing: 30px;
+
+}
+#button{
+	color: black;
+	background: orange;
+	size: 40px;
+	font-size: 20px;
+	font-family: monospace;
+	border:3px solid blue ;
+	width: 5em;
+	border-radius: 1em;
+	color: white;
+}
+#email{
+	width: 70%;
+	font-size: 10px;
+}
+#RADIO{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
 }
 
-label{
-	font-size: 10px;
+#st{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#wo{
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
